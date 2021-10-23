@@ -9,8 +9,6 @@ a {
 Main content
 =========
 */
-.main-content {
-}
 
 /* 
 =========
@@ -29,6 +27,7 @@ header {
 .logo {
   border-radius: 50%;
   box-shadow: 5px 11px 49px 14px rgba(36, 187, 145, 0.85);
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -44,7 +43,7 @@ Navbar
 .navbar a {
   color: black;
   font-size: 1.5rem;
-  background: grey;
+  background: rgba(192, 189, 189, 0.541);
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 2rem;
@@ -77,6 +76,9 @@ Photo grid
   object-fit: cover;
   box-shadow: 3px 5px 13px 0px #000000;
 }
+.photo:hover {
+  opacity: 0.5;
+}
 /* 
 =========
 Footer
@@ -98,3 +100,35 @@ Footer
 Queries
 =========
 */
+@media (min-width: 150px) {
+  .photo-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 576px) {
+  .photo-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .photo-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .photo-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* @media (min-width: 1200px) {
+{
+  }
+}
+
+@media (min-width: 1400px) {
+{
+  }
+} */
