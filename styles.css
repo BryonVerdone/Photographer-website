@@ -89,7 +89,7 @@ Photo grid
   transition: all 0.5s linear;
 }
 .photo:hover {
-  transform: scale(1.09);
+  transform: scale(1.08);
 }
 /* 
 =========
