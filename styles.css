@@ -31,7 +31,9 @@ header {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
+.heading-name {
+  font-family: 'Patua One', cursive;
+}
 /* 
 =========
 Navbar
@@ -54,6 +56,10 @@ Navbar
 .navbar a:hover {
   color: white;
   background: #24bb91;
+}
+.btn-txt {
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
 }
 /* 
 =========
