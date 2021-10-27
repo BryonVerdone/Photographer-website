@@ -40,27 +40,30 @@ Navbar
 =========
 */
 .navbar {
-  margin-top: 1rem;
+  margin-top: 2rem;
   /* border: 3px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .navbar a {
   color: black;
   font-size: 1.5rem;
   background: rgba(192, 189, 189, 0.541);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  padding: 0.75rem;
   margin: 0 2rem;
   border-radius: 0.75rem;
   transition: all 0.5s linear;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 .navbar a:hover {
   color: white;
   background: #24bb91;
 }
-.btn-txt {
-  font-family: 'Spartan', sans-serif;
-  font-weight: bold;
-}
+
 /* 
 =========
 Photo grid
@@ -132,4 +135,16 @@ Queries
   .photo-grid-container {
     grid-template-columns: 1fr 1fr;
   }
+}
+/* 
+=========
+Gallery page
+=========
+*/
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 2rem;
 }
