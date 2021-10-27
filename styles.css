@@ -86,14 +86,16 @@ Photo grid
   transition: all 0.5s linear;
 }
 .photo:hover {
-  transform: scale(1.1);
+  transform: scale(1.09);
 }
 /* 
 =========
 Footer
 =========
 */
-
+footer {
+  max-width: 100%;
+}
 .footer-container {
   text-align: center;
   font-size: 2rem;
@@ -131,13 +133,3 @@ Queries
     grid-template-columns: 1fr 1fr;
   }
 }
-
-/* @media (min-width: 1200px) {
-{
-  }
-}
-
-@media (min-width: 1400px) {
-{
-  }
-} */
