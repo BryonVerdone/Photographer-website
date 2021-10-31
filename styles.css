@@ -5,6 +5,12 @@
 a {
   text-decoration: none;
 }
+
+.wrapper {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
 /* 
 =========
 Main content
@@ -35,6 +41,11 @@ header {
   font-family: 'Spartan', sans-serif;
   font-weight: bold;
 }
+.gallery-header {
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
 /* 
 =========
 Navbar
@@ -43,6 +54,7 @@ Navbar
 .navbar {
   margin-top: 1rem;
   /* border: 3px solid red; */
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -51,7 +63,7 @@ Navbar
   font-size: 1.5rem;
   background: rgba(192, 189, 189, 0.541);
   padding: 0.75rem 1rem;
-  margin: 0 8rem;
+  margin: 0 1rem;
   border-radius: 0.75rem;
   transition: all 0.5s linear;
   font-family: 'Spartan', sans-serif;
@@ -76,8 +88,8 @@ Photo grid
   gap: 0.75rem;
   place-items: center;
   margin-top: 2rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .photo {
   width: 100%;
