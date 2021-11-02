@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Spartan:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="icon" href="./photos/LMP-logo.png">
     <title>Lindsey Mabel Photography</title>
   </head>
   <body>
@@ -24,30 +25,50 @@
         <div class="logo-container">
             <img class=logo src="./photos/LMP-logo.png" alt="">
         </div>
-        <h1>Lindsey Mabel</h1>
+        <h1 class="heading-name">Lindsey Mabel</h1>
         <div class="main-padding-32">
             <!-- navbar -->
+            <div class="wrapper">
           <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="about-me.html">About Me</a>
             <a href="galleries.html">Galleries</a>
             <a href="contact.html">Contact</a>
             </nav>
+</div>
           </div>
             <!-- end of navbar -->
         </div>
       </header>
       <!-- add card title and opacity on hover with overlay class  -->
+<div class="wrapper">
       <div class="gallery-grid">
         <div class="gallery-card">
-<a  href="./weddings.html"><img src="./Weddings/wedding_cover_small.jpg" alt=""></a>
-
+<a  href="./weddings.html"><img class="gallery-img" src="./Weddings/wedding_cover_small.jpg" alt=""></a>
+                <!-- card info overlay -->
+<div class="overlay">
+  <div class="overlay-text">
+    <h2>Weddings</h2>
+  </div>
+</div>
+</div>
+<!-- end of card -->
+<div class="gallery-card">
+<a  href="./family_photos.html"><img class="gallery-img" src="./Family-photos/family_photo_small_cover.jpg" alt=""></a>
+<div class="overlay">
+  <div class="overlay-text">
+    <h2 class="gallery-title">Family Photos</h2>
+  </div>
+</div>
 </div>
 <div class="gallery-card">
-<a  href="./family_photos.html"><img src="./Family-photos/family_photo_small_cover.jpg" alt=""></a>
+<a href="./events.html"><img class="gallery-img"  src="./Events/events_cover_2.jpg" alt=""></a>
+<div class="overlay">
+  <div class="overlay-text">
+    <h2>Events</h2>
+  </div>
 </div>
-<div class="gallery-card">
-<a   href="./events.html"><img class="small-photo" src="./Events/events_cover.jpg" alt=""></a>
+</div>
 </div>
 </div>
       <!-- Links to 3 different galleries -->

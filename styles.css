@@ -145,6 +145,17 @@ Queries
 
 /* 
 =========
+About page
+=========
+*/
+.about-section {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* 
+=========
 Gallery page
 =========
 */
@@ -154,26 +165,32 @@ Gallery page
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   margin-top: 2rem;
+  column-gap: 1rem;
 }
 
-.small-photo {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
+.gallery-card {
+  position: relative;
 }
-/* 
-=========
-Wedding Gallery
-=========
-*/
+.gallery-img {
+  box-shadow: 3px 5px 13px 0px;
+}
 
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.overlay-text {
+  text-align: center;
+  color: black;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.25rem;
+}
 .gallery-header {
   font-family: 'Spartan', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 2rem;
-}
-.gallery-card {
-}
-.card-text {
 }
