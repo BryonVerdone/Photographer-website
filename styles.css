@@ -199,29 +199,10 @@ Gallery page
 @media (max-width: 620px) {
   .gallery-grid {
     grid-template-columns: 1fr;
-  }
-}
-/* .center {
-  place-items: center;
-} */
-/* 
-=========
-Still trying to figure this out
-=========
-*/
-/* @media screen and (min-width: 375px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-    width: 100%;
-    place-items: center;
+    place-content: center;
   }
 }
 
-@media screen and (min-width: 1170px) {
-  .gallery-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-} */
 .gallery-card {
   position: relative;
 }
@@ -243,7 +224,7 @@ Still trying to figure this out
   font-family: 'Spartan', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin-top: 0.25rem;
+  margin-top: 0.75rem;
   margin-bottom: 2rem;
 }
 .gallery-header {
@@ -251,4 +232,26 @@ Still trying to figure this out
   font-weight: bold;
   text-align: center;
   margin-top: 2rem;
+}
+
+/* 
+=========
+Contact page
+=========
+*/
+.contact-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.contact-center {
+  text-align: center;
+}
+.email {
+  margin-bottom: 2rem;
+}
+.contact-icons {
+  display: inline;
+  margin: 2rem;
+  font-size: 4rem;
 }
